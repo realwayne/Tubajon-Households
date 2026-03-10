@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Viewer (Query Param Filter)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #content {
+            display: block;
+        }
+
+        #download-btn {
+            margin-left: 10px;
+            padding: 8px 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .error {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h2>For Data Validation of: <span id="current-filter"></span></h2>
+            <div>
+                <button id="download-btn" type="button">Download</button>
+            </div>
+        </div>
+        <div id="csv-table" style="overflow-x: scroll;"></div>
+    </div>
+
+    <script>
+        // Simple CSV parser (matches behavior used previously)
+        function parseCSV(csvText) {
+            if (!csvText) return { headers: [], data: [] };
+            const lines = csvText.trim().split('\n').filter(l => l.trim() !== '');
+            if (lines.length === 0) return { headers: [], data: [] };
+
+            const headers = lines[0].replace(/\r/g, '').split(',').map(h => h.trim());
+            const data = [];
+
+            for (let i = 1; i < lines.length; i++) {
+                const values = lines[i].replace(/\r/g, '').split(',');
+                const row = {};
+                headers.forEach((header, index) => {
+                    row[header] = values[index]?.trim() || '';
+                });
+                data.push(row);
+            }
+
+            return { headers, data };
+        }
+
+        // Get query parameter by name
+        function getQueryParam(name) {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(name);
+        }
+
+        function displayTable(headers, data) {
+            const tableDiv = document.getElementById('csv-table');
+            if (!headers || headers.length === 0) {
+                tableDiv.innerHTML = '<p>No data available</p>';
+                return;
+            }
+
+            let html = '<table><thead><tr>';
+            headers.forEach(header => {
+                html += `<th>${header}</th>`;
+            });
+            html += '</tr></thead><tbody>';
+
+            data.forEach(row => {
+                html += '<tr>';
+                headers.forEach(header => {
+                    if (header === 'Building QR') {
+                        html += `\n<td>\n<img src="https://pditub.chis.com.ph/System/image/qrcode?PARAM_SIZE=10&PARAM_QRCODE=${encodeURIComponent(row['Building Code']||'')}" alt="QR" style="width:40px;height:40px;object-fit:contain;">\n</td>`;
+                    } else {
+                        html += `<td>${row[header] ?? ''}</td>`;
+                    }
+                });
+                html += '</tr>';
+            });
+
+            html += '</tbody></table>';
+            tableDiv.innerHTML = html;
+
+            // store current table for download
+            window.currentTable = { headers: headers.slice(), data: data.slice() };
+        }
+
+        async function loadCSVFromFile() {
+            try {
+                const response = await fetch('./validation.csv');
+                const csvText = await response.text();
+                window.csvData = csvText;
+            } catch (err) {
+                console.error('Error loading CSV:', err);
+                window.csvData = '';
+            }
+        }
+
+        window.onload = async function () {
+            await loadCSVFromFile();
+
+            const { headers, data } = parseCSV(window.csvData);
+
+            // Apply filter from query parameter 'bgry' (case-insensitive)
+            const bgry = getQueryParam('brgy');
+            let filtered = data;
+            if (bgry && bgry.trim() !== '') {
+                const wanted = bgry.trim().toLowerCase();
+                filtered = data.filter(row => (row['Barangay'] || '').toLowerCase() === wanted);
+                document.getElementById('current-filter').textContent = wanted.toUpperCase();
+            } else {
+                document.getElementById('current-filter').textContent = 'ALL';
+            }
+
+            displayTable(headers, filtered);
+
+            // Download button logic
+            const downloadBtn = document.getElementById('download-btn');
+            downloadBtn.addEventListener('click', function () {
+                const tbl = window.currentTable;
+                if (!tbl || !tbl.data) {
+                    alert('No table data available to download.');
+                    return;
+                }
+
+                function escapeCsvValue(val) {
+                    if (val === null || val === undefined) return '';
+                    const s = String(val);
+                    if (/[",\n\r]/.test(s)) {
+                        return '"' + s.replace(/"/g, '""') + '"';
+                    }
+                    return s;
+                }
+
+                const rows = [];
+                rows.push(tbl.headers.map(h => escapeCsvValue(h)).join(','));
+                tbl.data.forEach(r => {
+                    const vals = tbl.headers.map(h => escapeCsvValue(r[h] ?? ''));
+                    rows.push(vals.join(','));
+                });
+
+                const csvContent = rows.join('\r\n');
+                const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                const filterLabel = (bgry && bgry.trim() !== '') ? bgry.trim() : 'all';
+                a.download = `validation_${filterLabel}.csv`;
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+                URL.revokeObjectURL(url);
+            });
+        };
+    </script>
+</body>
+
+</html>

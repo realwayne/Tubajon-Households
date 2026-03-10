@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tubajon Household Clusters</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    
+    <style>
+        body { margin: 0; padding: 0; font-family: sans-serif; }
+        #map { height: 100vh; width: 100%; }
+        .info-panel {
+            position: absolute; top: 10px; right: 10px; z-index: 1000;
+            background: white; padding: 15px; border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            max-width: 250px;
+        }
+        h3 { margin-top: 0; color: #2c3e50; }
+        .legend { line-height: 18px; color: #555; }
+    </style>
+</head>
+<body>
+
+<div class="info-panel">
+    <h3>Household Map</h3>
+    <p id="stats">Analyzing Barangay data...</p>
+    <hr>
+    <div class="legend">
+        <small>Zoom in to see <b>Purok</b> clusters.<br>Click clusters to expand.</small>
+    </div>
+</div>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+
+<script>
+    const map = L.map('map').setView([10.3, 125.5], 40);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap'
+    }).addTo(map);
+
+    // Initialize the Marker Cluster Group
+    const markers = L.markerClusterGroup({
+        showCoverageOnHover: false,
+        spiderfyOnMaxZoom: true,
+        // This helps visualize the hierarchy as you zoom
+        disableClusteringAtZoom: 18 
+    });
+
+    Papa.parse("./outputs/Merge_Households.csv", {
+        download: true,
+        header: true,
+        dynamicTyping: true,
+        skipEmptyLines: true,
+        complete: function(results) {
+            const data = results.data;
+            let count = 0;
+
+            data.forEach(row => {
+                if (row.Latitude && row.Longitude) {
+                    // Create marker
+                    const marker = L.marker([row.Latitude, row.Longitude]);
+                    
+                    // Detailed Popup including Barangay and Purok
+                    const popupContent = `
+                        <div style="font-size: 14px;">
+                            <strong>Building:</strong> ${row["Unique Code"]}<br>
+                            <hr style="margin: 5px 0">
+                            <strong>Barangay:</strong> ${row.Barangay}<br>
+                            <strong>Purok:</strong> ${row.Purok || 'Not Specified'}<br>
+                            <strong>Municipality:</strong> ${row.Municipality}
+                        </div>
+                    `;
+                    
+                    marker.bindPopup(popupContent);
+                    
+                    // Add to cluster group instead of map directly
+                    markers.addLayer(marker);
+                    count++;
+                }
+            });
+
+            // Add the clusters to the map
+            map.addLayer(markers);
+
+            document.getElementById('stats').innerText = `Total Households: ${count}`;
+            
+            // Zoom map to fit all clusters
+            if (count > 0) {
+                map.fitBounds(markers.getBounds());
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

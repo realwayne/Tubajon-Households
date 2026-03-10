@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Household Mapping - Tubajon</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- PapaParse -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .offcanvas {
+            --bs-offcanvas-width: 600px;
+            /* Adjust the value as needed */
+        }
+
+        /* Prevent the hidden offcanvas from intercepting pointer events */
+        .offcanvas:not(.show) {
+            pointer-events: none;
+        }
+
+        /* Offcanvas will handle sidebar UI; no custom sidebar styles needed */
+        /* Search box (top-center) */
+        .search-container {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1100;
+            width: 380px;
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            pointer-events: auto;
+        }
+
+        .search-input {
+            flex: 1 1 auto;
+            padding: 6px 10px;
+            border-radius: 6px;
+            border: 1px solid #ced4da;
+        }
+
+        .search-btn {
+            padding: 6px 10px;
+        }
+
+        .search-clear {
+            padding: 6px 10px;
+        }
+
+        /* Legend (bottom-left expandable) */
+        .legend-container {
+            position: absolute;
+            bottom: 14px;
+            left: 14px;
+            z-index: 1100;
+            max-width: 300px;
+            pointer-events: auto;
+            font-size: 14px;
+        }
+
+        .legend-toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #ffffffee;
+            border: 1px solid #ced4da;
+            padding: 6px 10px;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+            cursor: pointer;
+        }
+
+        .legend-content {
+            display: none;
+            margin-top: 8px;
+            background: rgba(255, 255, 255, 0.98);
+            border-radius: 6px;
+            padding: 10px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+            border: 1px solid #e9ecef;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+        }
+
+        .legend-swatch {
+            width: 18px;
+            height: 18px;
+            border-radius: 3px;
+            display: inline-block;
+            border: 1px solid #bbb;
+        }
+
+        .legend-note {
+            font-size: 13px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="search-container">
+        <input id="searchInput" class="search-input form-control" placeholder="Search Building Code..."
+            aria-label="Search Building Code" />
+        <button id="searchBtn" class="btn btn-primary search-btn">Search</button>
+        <button id="searchClear" class="btn btn-outline-secondary search-clear" title="Clear">Clear</button>
+    </div>
+
+    <div id="map"></div>
+
+    <!-- Expandable Legend (bottom-left) -->
+    <div class="legend-container" id="mapLegend">
+        <button id="legendToggle" class="legend-toggle">Legend ▾</button>
+        <div id="legendContent" class="legend-content" aria-hidden="true">
+            <div class="legend-section">
+                <div class="legend-section-heading"><strong>Flooding</strong></div>
+                <div class="legend-item"><span class="legend-swatch" style="background: red"></span><span
+                        class="legend-note">Very High Flooding</span></div>
+                <div class="legend-item"><span class="legend-swatch" style="background: orange"></span><span
+                        class="legend-note">High Flooding</span></div>
+                <div class="legend-item"><span class="legend-swatch"
+                        style="background: yellow; border: 1px solid #bdb76b"></span><span class="legend-note">Moderate
+                        Flooding</span></div>
+                <div class="legend-item"><span class="legend-swatch" style="background: green"></span><span
+                        class="legend-note">Low Flooding</span></div>
+            </div>
+            <hr />
+            <div class="legend-section">
+                <div class="legend-section-heading"><strong>Landslide</strong></div>
+                <div class="legend-item"><span class="legend-swatch" style="background: red"></span><span
+                        class="legend-note">Very High Landslide</span></div>
+                <div class="legend-item"><span class="legend-swatch" style="background: orange"></span><span
+                        class="legend-note">High Landslide</span></div>
+                <div class="legend-item"><span class="legend-swatch"
+                        style="background: yellow; border: 1px solid #bdb76b"></span><span class="legend-note">Moderate
+                        Landslide</span></div>
+                <div class="legend-item"><span class="legend-swatch" style="background: green"></span><span
+                        class="legend-note">Low Landslide</span></div>
+            </div>
+            <hr />
+            <div class="legend-item"><span class="legend-swatch" style="background: #0d6efd"></span><span
+                    class="legend-note">Household Marker (default)</span></div>
+            <div class="legend-item"><span class="legend-swatch"
+                    style="background: #dc3545; border-radius: 50%"></span><span class="legend-note">Highlighted /
+                    Selected Marker</span></div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Offcanvas for Household Details -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="householdOffcanvas"
+        aria-labelledby="householdOffcanvasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="householdOffcanvasLabel">Household Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" id="offcanvas-body">
+            Click a marker to see details
+        </div>
+    </div>
+
+    <script async>
+        // Initialize map
+        const map = L.map('map').setView([10.3134218, 125.5598803], 14);
+
+        // Tile Layer (Base Map)
+        const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Alternative Tile Layer (Satellite Imagery)
+        const satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+        });
+
+        //add feature so I can toggle between OSM and Satellite
+        const baseMaps = {
+            "OpenStreetMap": osmLayer,
+            "Satellite": satelliteLayer
+        };
+
+        let individuals = {};
+        // Marker highlight state
+        let selectedMarker = null;
+        let householdsLayer = null;
+        let barangayBoundariesLayer = null;
+        let landslideLayer = null;
+        let floodLayer = null;
+        // Index of building codes to markers for search
+        let buildingCodeIndex = {};
+        // Currently highlighted markers from search
+        let highlightedMarkers = [];
+
+        async function loadOverlayLayers() {
+
+
+            //Load Individuals CSV and group by Building Code
+            Papa.parse("./inputs/Individuals.csv", {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                skipEmptyLines: true,
+                complete: function (results) {
+                    results.data.forEach(row => {
+                        const householdCode = row["Building Code"];
+                        if (!individuals[householdCode]) {
+                            individuals[householdCode] = [];
+                        }
+                        individuals[householdCode].push(row);
+                    });
+                }
+            });
+
+            //Load Households CSV and Create Markers
+
+            // Load CSV and create markers
+            Papa.parse("./outputs/Merge_Households.csv", {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                skipEmptyLines: true,
+                complete: function (results) {
+                    const data = results.data;
+                    let count = 0;
+
+                    let markers = [];
+
+                    data.forEach(row => {
+                        const lat = parseFloat(row.Latitude || row.lat);
+                        const lng = parseFloat(row.Longitude || row.lng);
+
+                        if (!isNaN(lat) && !isNaN(lng)) {
+                            // skip rows not in Tubajon if municipality field exists
+                            const munField = row.Municipality || row.municipality || row.MUNICIPALITY || row["Municipality"] || row["Municipality Name"] || row["adm2_en"] || row["adm3_en"];
+                            if (munField && munField.toString().trim().toLowerCase() !== 'tubajon') {
+                                return; // skip this iteration
+                            }
+                            const marker = L.circleMarker([lat, lng], {
+                                radius: 6,
+                                color: '#0d6efd',
+                                fillColor: '#0d6efd',
+                                fillOpacity: 0.9,
+                                weight: 1
+                            });
+
+                            // attach marker to markers array and map
+                            markers.push(marker);
+                            marker.addTo(map);
+
+                            // attach the row to marker so we can show details later
+                            marker._row = row;
+
+                            // determine building code key (try common field names)
+                            const codeVal = (row["Unique Code"] || row["Building Code"] || row["BuildingCode"] || row["UniqueCode"] || "").toString().trim();
+                            marker.buildingCode = codeVal;
+                            if (codeVal) {
+                                const key = codeVal.toLowerCase();
+                                if (!buildingCodeIndex[key]) buildingCodeIndex[key] = [];
+                                buildingCodeIndex[key].push(marker);
+                            }
+
+                            // On marker click: show offcanvas and highlight marker
+                            marker.on('click', () => {
+                                // reset previous
+                                if (selectedMarker && selectedMarker !== marker) {
+                                    selectedMarker.setStyle({
+                                        radius: 6,
+                                        color: '#0d6efd',
+                                        fillColor: '#0d6efd',
+                                        fillOpacity: 0.9
+                                    });
+                                }
+
+                                // highlight this marker
+                                marker.setStyle({
+                                    radius: 9,
+                                    color: '#dc3545',
+                                    fillColor: '#dc3545',
+                                    fillOpacity: 0.95
+                                });
+                                marker.bringToFront();
+                                selectedMarker = marker;
+
+
+                                const individualsInHousehold = individuals[row["Unique Code"]] || [];
+                                let familyMembersHTML = '';
+                                if (individualsInHousehold.length > 0) {
+
+                                    //group the individuals using "Family Code"
+                                    const familyGroups = {};
+                                    individualsInHousehold.forEach(individual => {
+                                        const familyCode = individual["Family Code"];
+                                        if (!familyGroups[familyCode]) {
+                                            familyGroups[familyCode] = [];
+                                        }
+                                        familyGroups[familyCode].push(individual);
+                                    });
+
+
+                                    console.log(familyGroups)
+                                    // Generate HTML for each family group
+                                    Object.keys(familyGroups).forEach(familyCode => {
+                                        familyMembersHTML += `
+                                        <h6>Family: ${familyCode}</h6>
+                                        <table class="table table-sm table-bordered overflow-scroll">
+                                            <thead>
+                                                <tr>
+                                                    <th>Actions</th>
+                                                    <th>First Name</th>
+                                                    <th>Last Name</th>
+                                                    <th>Middle Name</th>
+                                                    <th>Birthdate</th>
+                                                    <th>Gender</th>
+                                                    <th>Profession</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                    `;
+                                        familyGroups[familyCode].forEach(individual => {
+                                            familyMembersHTML += `
+                                            <tr>
+                                                <td>
+                                                    <button class="btn btn-sm btn-primary view-btn" data-individual='${JSON.stringify(individual)}'>View</button>
+                                                </td>
+                                                <td>${individual["First name"]}</td>
+                                                <td>${individual["Last name"]}</td>
+                                                <td>${individual["Middle name"]}</td>
+                                                <td>${individual["Birth Date"]}</td>
+                                                <td>${individual["Gender"]}</td>
+                                                <td>${individual["Profession"] || ""}</td>
+                                            </tr>
+                                        `;
+                                        });
+                                        familyMembersHTML += `
+                                            </tbody>
+                                        </table>`;
+                                    });
+                                }
+
+                                offcanvasBody.innerHTML = `
+                            <div class="card card-body shadow mb-3">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <p class="m-0 p-0"><b>Barangay:</b> ${row["Barangay"] || "N/A"}</p>
+                                        <p class="m-0 p-0"><b>Purok:</b> ${row["Purok"] || "N/A"}</p>
+                                        <p class="m-0 p-0"><b>Building Code:</b> ${row["Unique Code"] || "N/A"}</p>
+                                        <p class="m-0 p-0"><b>Latitude:</b> ${lat}</p>
+                                        <p class="m-0 p-0"><b>Longitude:</b> ${lng}</p>
+                                    </div>
+                                    <div>
+                                        <img src="https://pditub.chis.com.ph/System/image/qrcode?PARAM_SIZE=4&PARAM_QRCODE=${row["Unique Code"] || "N/A"}" alt="Household Image" class="img-thumbnail p-0 h-100" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                ${familyMembersHTML}
+                            </div>
+                                `;
+                                offcanvas.show();
+                            });
+
+                            count++;
+                        }
+                    });
+
+                    console.log(`Loaded ${count} markers`);
+                    householdsLayer = L.layerGroup(markers).addTo(map);
+                }
+            });
+
+
+            //TUBAJON Barangay Boundaries.json
+            fetch('./inputs/PDI Barangay Boundaries.json')
+                .then(response => response.json())
+                .then(geojson => {
+                    barangayBoundariesLayer = L.geoJSON(geojson, {
+                        filter: function (feature) {
+                            if (!feature.properties) return false;
+                            const mun = feature.properties.municipality || feature.properties.MUNICIPALITY || feature.properties.adm2_en || feature.properties.adm3_en;
+                            return mun && mun.toString().trim().toLowerCase() === 'tubajon';
+                        },
+                        style: function (feature) {
+                            return {
+                                weight: 2,
+                                fillOpacity: 0,
+                                interactive: false,
+                            };
+                        },
+                    }).addTo(map);
+                })
+                .catch(error => console.error('Error loading Boundaries GeoJSON:', error));
+
+
+            // LANDSLIDE
+            const landslideResponse = await fetch('./Tubajon Maps/LandslideGJSON.geojson');
+            const landslideGeojson = await landslideResponse.json();
+
+            landslideLayer = L.geoJSON(landslideGeojson, {
+                style: function (feature) {
+
+                    const hazard = feature.properties?.HazardRisk;
+
+                    if (hazard === 'Very High Landslide')
+                        return { color: 'red', fillColor: 'red', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                    if (hazard === 'High Landslide')
+                        return { color: 'orange', fillColor: 'orange', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                    if (hazard === 'Moderate Landslide')
+                        return { color: 'yellow', fillColor: 'yellow', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                    if (hazard === 'Low Landslide')
+                        return { color: 'green', fillColor: 'green', weight: 2, fillOpacity: 0.7, interactive: false };
+                }
+            });
+
+
+            // FLOOD
+            const floodResponse = await fetch('./Tubajon Maps/FloodGJSON.geojson');
+            const floodGeojson = await floodResponse.json();
+
+            floodLayer = L.geoJSON(floodGeojson, {
+                style: function (feature) {
+
+                    const hazard = feature.properties?.HazardRisk;
+
+                    if (hazard === 'Very High Flooding')
+                        return { color: 'red', fillColor: 'red', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                    if (hazard === 'High Flooding')
+                        return { color: 'orange', fillColor: 'orange', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                    if (hazard === 'Moderate Flooding')
+                        return { color: 'yellow', fillColor: 'yellow', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                    if (hazard === 'Low Flooding')
+                        return { color: 'green', fillColor: 'green', weight: 2, fillOpacity: 0.7, interactive: false };
+                }
+            });
+
+            //STORM SURGE
+            const stormSurgeResponse = await fetch('./Tubajon Maps/StormSurgeGJSON.geojson');
+            const stormSurgeGeojson = await stormSurgeResponse.json();
+
+            stormSurgeLayer = L.geoJSON(stormSurgeGeojson, {
+                style: function (feature) {
+                    const hazard = feature.properties?.HazardRisk;
+                    if (hazard === 'Prone')
+                        return { color: 'red', fillColor: 'red', weight: 2, fillOpacity: 0.7, interactive: false };
+                }
+            });
+
+            //TSUNAMI
+            const tsunamiResponse = await fetch('./Tubajon Maps/TsunamiGJSON.geojson');
+            const tsunamiGeojson = await tsunamiResponse.json();
+
+            tsunamiLayer = L.geoJSON(tsunamiGeojson, {
+                style: function (feature) {
+                    const hazard = feature.properties?.HazardRisk;
+                    if (hazard === 'Tsunami Prone Areas')
+                        return { color: 'red', fillColor: 'red', weight: 2, fillOpacity: 0.7, interactive: false };
+                }
+            });
+
+            // LIQUEFACTION
+            const liquefactionResponse = await fetch('./Tubajon Maps/LiquefactionGJSON.geojson');
+            const liquefactionGeojson = await liquefactionResponse.json();
+
+            liquefactionLayer = L.geoJSON(liquefactionGeojson, {
+                style: function (feature) {
+                    const hazard = feature.properties?.HazardRisk;
+                    if (hazard === 'High Susceptibility Areas')
+                        return { color: 'red', fillColor: 'red', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                    if (hazard === 'Moderate Susceptibility Areas')
+                        return { color: 'orange', fillColor: 'orange', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                    if (hazard === 'Low Susceptibility Areas')
+                        return { color: 'yellow', fillColor: 'green', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                }
+            });
+
+            // SOIL EROSION
+            const soilErosionResponse = await fetch('./Tubajon Maps/SoilErosionGJSON.geojson');
+            const soilErosionGeojson = await soilErosionResponse.json();
+
+            soilErosionLayer = L.geoJSON(soilErosionGeojson, {
+                style: function (feature) {
+                    const hazard = feature.properties?.HazardRisk;
+                    if (hazard === 'Severe Erosion')
+                        return { color: 'red', fillColor: 'red', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                    if (hazard === 'Moderate Erosion')
+                        return { color: 'orange', fillColor: 'orange', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                    if (hazard === 'Slight Erosion')
+                        return { color: 'yellow', fillColor: 'green', weight: 2, fillOpacity: 0.7, interactive: false };
+
+                }
+            });
+
+
+        }
+
+
+        // MAIN INITIALIZER
+        async function initMap() {
+
+            await loadOverlayLayers();
+
+            var overlayMaps = {
+                "Households": householdsLayer,
+                "Boundaries": barangayBoundariesLayer,
+                "Flooding": floodLayer,
+                "Landslide": landslideLayer,
+                "Storm Surge": stormSurgeLayer,
+                "Tsunami": tsunamiLayer,
+                "Liquefaction": liquefactionLayer,
+                "Soil Erosion": soilErosionLayer
+            };
+
+            L.control.layers(baseMaps, overlayMaps).addTo(map);
+        }
+
+        initMap();
+
+
+        const offcanvasEl = document.getElementById('householdOffcanvas');
+        const offcanvasBody = document.getElementById('offcanvas-body');
+        const offcanvas = new bootstrap.Offcanvas(offcanvasEl);
+
+        // Clear any highlighted markers (reset to default style)
+        function clearHighlights() {
+            if (highlightedMarkers && highlightedMarkers.length) {
+                highlightedMarkers.forEach(m => {
+                    try {
+                        m.setStyle({
+                            radius: 6,
+                            color: '#0d6efd',
+                            fillColor: '#0d6efd',
+                            fillOpacity: 0.9
+                        });
+                    } catch (e) {
+                        // ignore if marker removed
+                    }
+                });
+            }
+            highlightedMarkers = [];
+            // also clear single selected marker highlight
+            if (selectedMarker) {
+                selectedMarker.setStyle({
+                    radius: 6,
+                    color: '#0d6efd',
+                    fillColor: '#0d6efd',
+                    fillOpacity: 0.9
+                });
+                selectedMarker = null;
+            }
+        }
+
+        // Search and highlight markers by Building Code
+        function searchByBuildingCode(term) {
+            clearHighlights();
+            if (!term) return;
+            const q = term.toString().trim().toLowerCase();
+            let matches = [];
+            if (buildingCodeIndex[q]) {
+                matches = buildingCodeIndex[q].slice();
+            } else {
+                // partial match across keys
+                Object.keys(buildingCodeIndex).forEach(k => {
+                    if (k.includes(q)) {
+                        buildingCodeIndex[k].forEach(m => matches.push(m));
+                    }
+                });
+            }
+
+            if (matches.length === 0) {
+                // simple feedback
+                alert('No matching Building Code found.');
+                return;
+            }
+
+            // highlight all matches and pan to first
+            matches.forEach(m => {
+                try {
+                    m.setStyle({
+                        radius: 9,
+                        color: '#dc3545',
+                        fillColor: '#dc3545',
+                        fillOpacity: 0.95
+                    });
+                    m.bringToFront();
+                    highlightedMarkers.push(m);
+                } catch (e) { }
+            });
+
+            const first = matches[0];
+            if (first) {
+                map.setView(first.getLatLng(), 17);
+                // open offcanvas for the first result
+                if (first._row) {
+                    // trigger click handler to populate offcanvas
+                    first.fire('click');
+                }
+            }
+        }
+
+        // Wire search UI
+        document.getElementById('searchBtn').addEventListener('click', () => {
+            const q = document.getElementById('searchInput').value;
+            searchByBuildingCode(q);
+        });
+
+        document.getElementById('searchInput').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                searchByBuildingCode(e.target.value);
+            }
+        });
+
+        document.getElementById('searchClear').addEventListener('click', () => {
+            document.getElementById('searchInput').value = '';
+            clearHighlights();
+        });
+
+        // Legend toggle behavior
+        const legendToggle = document.getElementById('legendToggle');
+        const legendContent = document.getElementById('legendContent');
+        legendToggle.addEventListener('click', () => {
+            const isOpen = legendContent.style.display === 'block';
+            if (isOpen) {
+                legendContent.style.display = 'none';
+                legendContent.setAttribute('aria-hidden', 'true');
+                legendToggle.innerText = 'Legend ▾';
+            } else {
+                legendContent.style.display = 'block';
+                legendContent.setAttribute('aria-hidden', 'false');
+                legendToggle.innerText = 'Legend ▴';
+            }
+        });
+
+
+
+        // Reset selection when offcanvas is closed
+        offcanvasEl.addEventListener('hidden.bs.offcanvas', () => {
+            if (selectedMarker) {
+                selectedMarker.setStyle({
+                    radius: 6,
+                    color: '#0d6efd',
+                    fillColor: '#0d6efd',
+                    fillOpacity: 0.9
+                });
+                selectedMarker = null;
+            }
+        });
+
+        // Show coordinates popup when clicking the map, but ignore clicks on markers
+        map.on('click', function (e) {
+            try {
+                const originalTarget = e?.originalEvent?.target;
+
+                // If the click target is part of a marker (marker icon or interactive SVG path), ignore
+                if (originalTarget && originalTarget.closest) {
+                    const isMarkerElement = originalTarget.closest('.leaflet-marker-icon') || originalTarget.closest('.leaflet-interactive');
+                    if (isMarkerElement) return; // click was on a marker, do nothing
+                }
+
+                const lat = e.latlng.lat.toFixed(6);
+                const lng = e.latlng.lng.toFixed(6);
+                L.popup()
+                    .setLatLng(e.latlng)
+                    .setContent(`
+                        <div>
+                            <h5>Coordinates</h5>
+                            <b>Latitude:</b> ${lat}<br/>
+                            <b>Longitude:</b> ${lng}
+                        </div>
+                    `)
+                    .openOn(map);
+            } catch (err) {
+                console.error('Error handling map click:', err);
+            }
+        });
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

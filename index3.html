@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Household Mapping - Tubajon</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/6.5.10/browser/pixi.min.js"></script>
+    <script src="https://unpkg.com/leaflet-pixi-overlay"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+
+    <style>
+        body { margin:0; padding:0; font-family:sans-serif; }
+        #map { height:100vh; width:100%; }
+        .info-panel {
+            position:absolute; top:10px; right:10px; z-index:1000;
+            background:white; padding:10px; border-radius:5px;
+            box-shadow:0 0 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="info-panel">
+        <h3>Household Details</h3>
+        <p id="stats">Loading data...</p>
+    </div>
+
+    <div id="map"></div>
+
+    <script>
+        const map = L.map('map').setView([10.3134218,125.5598803], 14);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap'
+        }).addTo(map);
+
+        const pixiContainer = new PIXI.Container();
+        const markers = [];
+        let points = [];
+
+        const drawCallback = function(utils) {
+            const project = utils.latLngToLayerPoint;
+            const renderer = utils.getRenderer();
+            const container = utils.getContainer();
+
+            if (!container._initialized && points.length) {
+                points.forEach(p => {
+                    // Use an image for the marker
+                    const marker = PIXI.Sprite.from('https://cdn-icons-png.flaticon.com/512/684/684908.png');
+                    marker.width = 1;
+                    marker.height = 1;
+                    marker.anchor.set(0.5, 1); // bottom-center like Leaflet default marker
+                    marker.lat = p.lat;
+                    marker.lng = p.lng;
+                    container.addChild(marker);
+                    markers.push(marker);
+                });
+                container._initialized = true;
+            }
+
+            markers.forEach(marker => {
+                const pos = project([marker.lat, marker.lng]);
+                marker.x = pos.x;
+                marker.y = pos.y;
+            });
+
+            renderer.render(container);
+        };
+
+        const pixiOverlay = L.pixiOverlay(drawCallback, pixiContainer);
+        pixiOverlay.addTo(map);
+
+        Papa.parse("./outputs/Merge_Households.csv", {
+            download:true,
+            header:true,
+            dynamicTyping:true,
+            skipEmptyLines:true,
+            complete:function(results) {
+                const data = results.data;
+                data.forEach(row => {
+                    const lat = parseFloat(row.Latitude || row.lat);
+                    const lng = parseFloat(row.Longitude || row.lng);
+                    if(!isNaN(lat) && !isNaN(lng)) {
+                        points.push({lat, lng});
+                    }
+                });
+
+                console.log("Points loaded:", points.length);
+                if(points.length) {
+                    pixiOverlay.redraw();
+                    document.getElementById("stats").innerHTML =
+                        "Total Households: <b>" + points.length + "</b>";
+                } else {
+                    document.getElementById("stats").innerHTML = "No valid points found.";
+                }
+            }
+        });
+    </script>
+</body>
+</html>

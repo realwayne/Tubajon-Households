@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Household Mapping - Tubajon</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+
+    <!-- Leaflet.glify -->
+    <script src="./dist/glify-browser.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .info-panel {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="info-panel">
+        <h3>Household Details</h3>
+        <p id="stats">Loading data...</p>
+    </div>
+    <div id="map"></div>
+
+    <script>
+        const map = L.map('map').setView([10.3, 125.5], 11);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap'
+        }).addTo(map);
+
+        Papa.parse("./outputs/Merge_Households.csv", {
+            download: true,
+            header: true,
+            dynamicTyping: true,
+            skipEmptyLines: true,
+            complete: function (results) {
+                const data = results.data;
+                const coords = [];
+                const metadata = [];
+
+                data.forEach(row => {
+                    if (row.Latitude && row.Longitude) {
+                        coords.push([parseFloat(row.Latitude), parseFloat(row.Longitude)]);
+                        metadata.push(row);
+                    }
+                });
+
+                document.getElementById('stats').innerText = `Total Households: ${coords.length}`;
+
+                if (coords.length === 0) return;
+
+                L.glify.points({
+                    map: map,
+                    data: coords,
+                    size: 14,
+                    color: { r: 1, g: 0, b: 0 }, // GLify often prefers RGB 0-1 objects
+                    click: function (point) {
+                        console.log("Clicked point:", point);
+
+                        // Normalize the clicked point into a Leaflet LatLng object.
+                        // `point` from glify can be an array [lat,lng] or an object with a `latlng` property.
+                        const clickedLatLng = (point && point.latlng)
+                            ? L.latLng(point.latlng.lat, point.latlng.lng)
+                            : L.latLng(point);
+
+                        // Find the data associated with this coordinate index
+                        const tolerance = 1e-6; // adjust if necessary
+                        const idx = coords.findIndex(c => {
+                            const arr = c; // [lat, lng]
+                            return Math.abs(arr[0] - clickedLatLng.lat) < tolerance &&
+                                   Math.abs(arr[1] - clickedLatLng.lng) < tolerance;
+                        });
+
+                        console.log("Clicked point index:", idx);
+
+                        if (idx === -1) {
+                            console.warn('No matching metadata found for clicked point.');
+                            return;
+                        }
+
+                        const row = metadata[idx];
+                        console.log("Clicked point data:", row);
+
+                        L.popup()
+                            .setLatLng(clickedLatLng)
+                            .setContent(`\n                        <b>Building Code:</b> ${row["Unique Code"]}<br>\n                        <b>Barangay:</b> ${row.Barangay}<br>\n                        <b>Coords:</b> ${clickedLatLng.lat}, ${clickedLatLng.lng}\n                    `)
+                            .openOn(map);
+                    }
+                });
+
+                map.fitBounds(coords);
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -206,13 +206,37 @@
                 return;
             }
 
+
+            const greenHeaders = [
+                "Civil Status", "Profession",
+                "Education", "Recidency Class",
+                "Pregnancy", "Solo Parent"];
+
+            const yellowHeaders = [
+                "ISY & OSY", "Day Care & SNP", "Water Source", "Toilet", "Type of Dwelling Unit", "Household with", "Garbage Disposal", "Home Electrification", "Fortified Foods", "Iodized Salt", "Medical History"
+            ];
+
+            const redHeaders = [
+                "Tenure", "Hazard Zone", "Livelihood Asset", "Small Household Business", "Farming", "PUV", "Livelihood"
+            ];
+
             let html = '<table><thead><tr>';
 
             // Create header row
             headers.forEach(header => {
-                html += `<th>${header}</th>`;
+                if (greenHeaders.includes(header)) {
+                    html += `<th style="background-color: #d4edda;">${header}</th>`;
+                } else if (yellowHeaders.includes(header)) {
+                    html += `<th style="background-color: #fff3cd;">${header}</th>`;
+                } else if (redHeaders.includes(header)) {
+                    html += `<th style="background-color: #f8d7da;">${header}</th>`;
+                } else {
+                    html += `<th>${header}</th>`;
+                }
+
             });
             html += '</tr></thead><tbody>';
+
 
             // Create data rows
             data.forEach(row => {

@@ -46,7 +46,6 @@ Diaz,Purok 1,2402001044,,2402001045,2402001999,Ira Mae Reyes,,,,,,,,,,,,,,,,,,,,
 Diaz,Purok 1,2402001046,,2402001047,2402002001,Ronel Serna,,,,,,,,,,,,,,,,,,,,,,,,no response
 Diaz,Purok 1,2402001048,,2402001049,2402002003,Charlo Selomin,,,,,,,,,,,,,,,,,,,,,,,,no response
 Diaz,Purok 1,2402001199,,2402001200,2402002260,Clenth Rosalejos,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 1,2402001203,,2402001204,2402002264,Kwin Zeleste Palermo,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 1,2401000125,,2401000128,2401000063,Edielyn Manatad,,,,,invalid,,,,,,,,,,,,,,,,,,,valid
 Malinao,Purok 1,2401000125,,2401000128,2401000067,Arjieh Manatad,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 1,2401000143,,2401000145,2401000076,Adelfa Quinicot,,,,,,,,,,,,,,,,,,,,,,,,no response
@@ -119,22 +118,6 @@ Mabini,Purok 1,2402000340,,2402000341,2402000645,clint yanag,,,,,,,,,,,,,,,,,,,,
 Mabini,Purok 1,2402000340,,2402000341,2402000644,charlyn yanag,,,,,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 1,2402000210,,2402000211,2402000376,Shanine Compe,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Roxas,Purok 1,2402000210,,2402000211,2402000391,Andro Compe,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 1,2402001318,,2402001340,2402002495,Jocelyn Esco,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 1,2402001319,,2402001341,2402002498,Nathaniel Bagtasos,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 1,2402001319,,2402001341,2402002497,Almi Bagtasos,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 1,2402001320,,2402001342,2402002502,Rhenna jean Palmera,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 1,2402001320,,2402001342,2402002501,Charina Palmera,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 1,2402001321,,2402001343,2402002504,John Eduard Esco,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 1,2402001322,,2402001344,2402002507,James Bag-ao,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 1,2402001323,,2402001345,2402002510,Rexjan Bagalay,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 1,2402001324,,2402001346,2402002513,Jemelyca Como,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 1,2402001325,,2402001347,2402002517,Andrea Daisog,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 1,2402001326,,2402001348,2402002521,Pretty Tesado,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 1,2402001328,,2402001350,2402002527,Marian Esco,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 1,2402001447,,2402001469,2402002758,Adelyn Como,,invalid,,,,,,,,,,,,,,,,,,,,,,valid
-Malinao,Purok 1,2402001451,,2402001474,2402002822,Nanita Bagacay,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 1,2402001454,,2402001477,2402002777,Jennllyn Enoy,,invalid,,,,,,,,,,,,,,,,,,,,,,valid
-Malinao,Purok 1,2402001455,,2402001478,2402002781,Brylle Bagacay,,invalid,,,,,,,,,,,,,,,,,,,,,,valid
 Roxas,Purok 1,2402000370,,2402000371,2402000704,Crislyn Trajano,,,,,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 1,2402000370,,2402000371,2402000706,Christine jane Trajano,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Roxas,Purok 1,2402000387,,2402000388,2402000753,Ernesto Ramelo,,,,,,,,,,,,,,,,,,,,,,,,no response
@@ -147,41 +130,58 @@ Roxas,Purok 1,2402000487,,2402000488,2402000920,Mc Rohann Compe,,,,,,,,,,,,,,,,,
 Roxas,Purok 1,2402000528,,2402000529,2402001013,Richel Compe,,,,,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 1,2402000530,,2402000531,2402001016,Marjun Compe,,,,,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 1,2402000534,,2402000536,2402001028,Editha Caberio,,,,,,,,,,,,,,,,,,,,,,,,no response
-Roxas,Purok 1,2402001489,,2402001491,2402002848,Queen Renrich Taypa,,,,,,,,,,,,,,,,,no response,,,,,,,valid
-Roxas,Purok 1,2402001490,,2402001492,2402002843,Billy Sumagang,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Roxas,Purok 1,2402001490,,2402001492,2402002844,Florencia Llamera,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Roque,Purok 1,2402000859,,2402000860,2402001685,Ayiesha Kaye DelapeÃ±a,,,,,,,,,,,,,,,,,no response,,,,,,,valid
 San Roque,Purok 1,2402000866,,2402000867,2402001691,Kaira Cuadrillero,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Roque,Purok 1,2402000866,,2402000867,2402001693,Khevin Cuadrillero,,,,,,,,,,,,,,,,,no response,,,,,,,no response
 San Roque,Purok 1,2402000872,,2402000873,2402001699,John Gabriel Lacanlale,,,,,,,,,,,,,,,,,no response,,,,,,,valid
 San Roque,Purok 1,2402000878,,2402000879,2402001703,Serdge Padullon,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Roque,Purok 1,2402000882,,2402000883,2402001728,Sherwin Ampo,,,,,,,,,,,,,,,,,no response,,,,,,,valid
+Diaz,Purok 1,2402001203,,2402001204,2402002264,Kwin Zeleste Palermo,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 1,2402001318,,2402001340,2402002495,Jocelyn Esco,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 1,2402001319,,2402001341,2402002497,Almi Bagtasos,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 1,2402001319,,2402001341,2402002498,Nathaniel Bagtasos,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 1,2402001320,,2402001342,2402002501,Charina Palmera,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 1,2402001320,,2402001342,2402002502,Rhenna jean Palmera,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 1,2402001321,,2402001343,2402002504,John Eduard Esco,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 1,2402001322,,2402001344,2402002507,James Bag-ao,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 1,2402001323,,2402001345,2402002510,Rexjan Bagalay,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 1,2402001324,,2402001346,2402002513,Jemelyca Como,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 1,2402001325,,2402001347,2402002517,Andrea Daisog,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 1,2402001326,,2402001348,2402002521,Pretty Tesado,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 1,2402001328,,2402001350,2402002527,Marian Esco,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 1,2402001447,,2402001469,2402002758,Adelyn Como,,invalid,,,,,,,,,,,,,,,,,,,,,,valid
+Malinao,Purok 1,2402001451,,2402001474,2402002822,Nanita Bagacay,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 1,2402001454,,2402001477,2402002777,Jennllyn Enoy,,invalid,,,,,,,,,,,,,,,,,,,,,,valid
+Malinao,Purok 1,2402001455,,2402001478,2402002781,Brylle Bagacay,,invalid,,,,,,,,,,,,,,,,,,,,,,valid
+Roxas,Purok 1,2402001489,,2402001491,2402002848,Queen Renrich Taypa,,,,,,,,,,,,,,,,,no response,,,,,,,valid
+Roxas,Purok 1,2402001490,,2402001492,2402002843,Billy Sumagang,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Roxas,Purok 1,2402001490,,2402001492,2402002844,Florencia Llamera,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001618,,2402001630,2402003066,Jasmine Merum,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 1,2402001618,,2402001630,2402003068,Ruth Meurom,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001619,,2402001631,2402003069,Elvira Sepe,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001619,,2402001631,2402003071,Camiele Sepe,,invalid,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 1,2402001620,,2402001632,2402003072,Joylyn Ocso,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001620,,2402001632,2402003076,Jenelyn Ocso,,invalid,,,,,,,,,,,,,,,,,,,,,,invalid
-San Vicente,Purok 1,2402001620,,2402001633,2402003113,Jimson Joaquino,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001620,,2402001633,2402003078,Nezza Ocso,,,,,invalid,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001620,,2402001633,2402003079,Zian Michael Joaquino,,invalid,,,,,,,,,,,,,,,,,,,,,,invalid
+San Vicente,Purok 1,2402001620,,2402001633,2402003113,Jimson Joaquino,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001621,,2402001634,2402003081,Laurita Loverio,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001621,,2402001634,2402003082,Sanderkhan Loverio,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001622,,2402001635,2402003115,Ernesto Bllar,,,,,,,,,,,,,,,,,,,,,,,,no response
-San Vicente,Purok 1,2402001623,,2402001636,2402003104,Xyreniel Pingol,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 1,2402001623,,2402001636,2402003086,Myrnalin Pingol,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001623,,2402001636,2402003101,Merry jhean Pingol,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+San Vicente,Purok 1,2402001623,,2402001636,2402003104,Xyreniel Pingol,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 1,2402001623,,2402001637,2402003088,Mary jane Arana,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001623,,2402001637,2402003105,Ellen jane Pingol,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
-San Vicente,Purok 1,2402001623,,2402001643,2402003119,Nelson sr Pingol,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001625,,2402001639,2402003089,Sharon Luib,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 1,2402001625,,2402001639,2402003100,Kaye jhelian Felicio,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
-San Vicente,Purok 1,2402001626,,2402001640,2402003107,Kaye jhelian Felicio,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 1,2402001626,,2402001640,2402003090,Anna marie Felicio,,,,,,,,,,,,,,,,,,,,,,,,no response
-San Vicente,Purok 1,2402001628,,2402001644,2402003108,Carmen Sta theresa,,,,,,,,,,,,,,,,,,,,,,,,no response
-San Vicente,Purok 1,2402001629,,2402001641,2402003092,Remedios Luib,,,,,,,,,,,,,,,,,,,,,,,,invalid
+San Vicente,Purok 1,2402001626,,2402001640,2402003107,Kaye jhelian Felicio,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 1,2402001629,,2402001641,2402003091,Arlyn Luib,,,,,,,,,,,,,,,,,,,,,,,,no response
+San Vicente,Purok 1,2402001629,,2402001641,2402003092,Remedios Luib,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 1,2402001629,,2402001641,2402003093,Queenith Luib,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+San Vicente,Purok 1,2402001623,,2402001643,2402003119,Nelson sr Pingol,,,,,,,,,,,,,,,,,,,,,,,,no response
+San Vicente,Purok 1,2402001628,,2402001644,2402003108,Carmen Sta theresa,,,,,,,,,,,,,,,,,,,,,,,,no response
 Malinao,Purok 1,2402001967,,2402001988,2402003725,Mc. Luarins Jamera,,,,,,,,,,,,,,,,,,,,,,,,no response
 Malinao,Purok 1,2402001967,,2402001988,2402003727,AJ. Stepine Jamera,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 1,2402001968,,2402001989,2402003728,Aileen Mahinay,,,,no response,,,,,,,,,,,,,,,,,,,,no response
@@ -433,31 +433,6 @@ Diaz,Purok 2,2402000944,,2402000946,2402001832,Loida Debalos,,,,,,,,,,,,,,,,,,,,
 Diaz,Purok 2,2402000945,,2402000947,2402001838,Jade Manait,,,,,,,,,,,,,,,,,,,,,,,,no response
 Diaz,Purok 2,2402000948,,2402000951,2402001848,Hans Jelian Casas,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Diaz,Purok 2,2402000948,,2402000951,2402001845,Gemmar Mongaya,,,,,,,,,,,,,,,,,,,,,,,,no response
-Diaz,Purok 2,2402001267,,2402001292,2402002396,Jonadel Longos,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001269,,2402001294,2402002399,Joseph Lie Pangandoyon,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001270,,2402001295,2402002403,Zyrich Steve Osiang,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001270,,2402001295,2402002402,Youngest Osiang,,,,,,,,,,,,,,,,,,,,,,,,no response
-Diaz,Purok 2,2402001270,,2402001295,2402002405,Zeki Thomas Osiang,,,,,,,,,,,,,,,,,no response,,,,,,,valid
-Diaz,Purok 2,2402001271,,2402001296,2402002409,Sophia Ellaine Pulido,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001272,,2402001297,2402002415,Mary Grace Plaza,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001272,,2402001297,2402002414,Cathy may Plaza,,,,,,,,,,,,,,,,,,,,,,,,no response
-Diaz,Purok 2,2402001274,,2402001299,2402002419,Lorenzo Coyno,,,,,,,,,,,,,,,,,,,,,,,,no response
-Diaz,Purok 2,2402001275,,2402001300,2402002423,Jhon Roldan Subere,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001275,,2402001300,2402002422,Trixie Ann Subere,,,,,,,,,,,,,,,,,,,,,,,,no response
-Diaz,Purok 2,2402001277,,2402001302,2402002426,Glyza Mellejor,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001278,,2402001303,2402002432,Edward Escabal,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001281,,2402001305,2402002439,Edjie Pangandoyon,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001281,,2402001305,2402002436,Jeno Pangandoyon,,,,,,,,,,,,,,,,,,,,,,,,no response
-Diaz,Purok 2,2402001281,,2402001306,2402002441,John Mark Quidato,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001281,,2402001306,2402002440,May Ann Pangandoyon,,,,,,,,,,,,,,,,,,,,,,,,no response
-Diaz,Purok 2,2402001281,,2402001307,2402002442,Lovely Doluhan,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001282,,2402001308,2402002445,Gerum Ventura,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001283,,2402001309,2402002452,Daphnie Pastera,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001284,,2402001310,2402002456,Zhalimar Abah,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001285,,2402001311,2402002460,Jundhel Orillanida,,,,,,,,,,,,,,,,,,,,,,,,no response
-Diaz,Purok 2,2402001286,,2402001313,2402002463,Ralf Adrian Bacubas,,,,,,,,,,,,,,,,,,,,,,,,no response
-Diaz,Purok 2,2402001287,,2402001314,2402002465,Alexis Manait,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Diaz,Purok 2,2402001288,,2402001315,2402002468,Aigie Clair Joy Caldo,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Imelda,Purok 2,2401000258,,2401000262,2401000309,Dennis Macinas,,,,,,,,,,,,no response,,,,,,,,,,,,valid
 Imelda,Purok 2,2401000258,,2401000262,2401000306,Angel Jhade Macinas,,,,,,,,,,,,no response,,,,,no response,,,,,,,invalid
 Imelda,Purok 2,2401000258,,2401000262,2401000304,Rosario Macinas,,,,,,,,,,,,no response,,,,,no response,,,,,,,valid
@@ -466,7 +441,6 @@ Imelda,Purok 2,2401000259,,2401000267,2401000313,Rosie Yanag,,,,no response,,,,,
 Imelda,Purok 2,2401000273,,2401000274,2401000319,Rodrigo Siscon,,,,,,,,,,,,,,,,,,,,,,,,no response
 Imelda,Purok 2,2401000273,,2401000274,2401000318,Eliza Siscon,,,,,,,,,,,,,,,,,no response,,,,,,,valid
 Imelda,Purok 2,2401000273,,2401000275,2401000320,Ronald Yanag,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-Mabini,Purok 2,2402001579,,2402001616,2402003056,Marlou Lumpay,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Roque,Purok 2,2402000140,,2402000141,2402000259,Chloe Faith Aureo,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Roque,Purok 2,2402000142,,2402000143,2402000263,Eduard Pacunla,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Roque,Purok 2,2402000148,,2402000149,2402000276,Zhin Tyzel Soliveres,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
@@ -497,6 +471,32 @@ Roxas,Purok 2,2402000766,,2402000767,2402001489,Renan Cualteros,,,,no response,,
 Roxas,Purok 2,2402000768,,2402000769,2402001503,Alfe Balanquig,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 2,2402000768,,2402000770,2402001504,Roel Salve,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 2,2402000771,,2402000772,2402001495,Cristel Cualteros,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Diaz,Purok 2,2402001267,,2402001292,2402002396,Jonadel Longos,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001269,,2402001294,2402002399,Joseph Lie Pangandoyon,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001270,,2402001295,2402002402,Youngest Osiang,,,,,,,,,,,,,,,,,,,,,,,,no response
+Diaz,Purok 2,2402001270,,2402001295,2402002403,Zyrich Steve Osiang,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001270,,2402001295,2402002405,Zeki Thomas Osiang,,,,,,,,,,,,,,,,,no response,,,,,,,valid
+Diaz,Purok 2,2402001271,,2402001296,2402002409,Sophia Ellaine Pulido,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001272,,2402001297,2402002414,Cathy may Plaza,,,,,,,,,,,,,,,,,,,,,,,,no response
+Diaz,Purok 2,2402001272,,2402001297,2402002415,Mary Grace Plaza,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001274,,2402001299,2402002419,Lorenzo Coyno,,,,,,,,,,,,,,,,,,,,,,,,no response
+Diaz,Purok 2,2402001275,,2402001300,2402002422,Trixie Ann Subere,,,,,,,,,,,,,,,,,,,,,,,,no response
+Diaz,Purok 2,2402001275,,2402001300,2402002423,Jhon Roldan Subere,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001277,,2402001302,2402002426,Glyza Mellejor,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001278,,2402001303,2402002432,Edward Escabal,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001281,,2402001305,2402002436,Jeno Pangandoyon,,,,,,,,,,,,,,,,,,,,,,,,no response
+Diaz,Purok 2,2402001281,,2402001305,2402002439,Edjie Pangandoyon,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001281,,2402001306,2402002440,May Ann Pangandoyon,,,,,,,,,,,,,,,,,,,,,,,,no response
+Diaz,Purok 2,2402001281,,2402001306,2402002441,John Mark Quidato,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001281,,2402001307,2402002442,Lovely Doluhan,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001282,,2402001308,2402002445,Gerum Ventura,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001283,,2402001309,2402002452,Daphnie Pastera,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001284,,2402001310,2402002456,Zhalimar Abah,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001285,,2402001311,2402002460,Jundhel Orillanida,,,,,,,,,,,,,,,,,,,,,,,,no response
+Diaz,Purok 2,2402001286,,2402001313,2402002463,Ralf Adrian Bacubas,,,,,,,,,,,,,,,,,,,,,,,,no response
+Diaz,Purok 2,2402001287,,2402001314,2402002465,Alexis Manait,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Diaz,Purok 2,2402001288,,2402001315,2402002468,Aigie Clair Joy Caldo,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Mabini,Purok 2,2402001579,,2402001616,2402003056,Marlou Lumpay,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Roque,Purok 2,2402001719,,2402001731,2402003162,Angel Orias,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Roxas,Purok 2,2402001947,,2402001956,2402003687,Christine Amit,,,,,,,,invalid,,,,,,,,,,,,,,,,valid
 Malinao,Purok 2,2402002067,,2402002110,2402003907,Dazel Valdez,,invalid,,,,,,,,,,,,,,,,,,,,,,invalid
@@ -964,51 +964,6 @@ Mabini,Purok 3,2402000005,,2402000006,2402000009,Elian JB Veloso,,,,no response,
 Mabini,Purok 3,2402000005,,2402000006,2402000009,Elian JB Veloso,,,,no response,,,,,,,,,,,,,no response,,,,,,,valid
 Roxas,Purok 3,2402000016,,2402000017,2402000015,Jellibeth Dalugdog,,,,,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 3,2402000016,,2402000017,2402000018,Ma.Rhea JeÃ±a Dalugdug,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
-Mabini,Purok 3,2402001732,,2402001778,2402003281,Vincent Emman Daguinod,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Mabini,Purok 3,2402001737,,2402001781,2402003291,Anita Lumpay,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001737,,2402001782,2402003295,Kryzel Jay Bisnar,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Mabini,Purok 3,2402001738,,2402001783,2402003296,Renato Jandayan,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001739,,2402001785,2402003289,Rose Marie Villacorte,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001739,,2402001785,2402003290,Florie Ann Villacorte,,,,,,,invalid,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001742,,2402001786,2402003299,Perlita Lumpay,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001742,,2402001786,2402003301,Johpette Lumpay,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
-Mabini,Purok 3,2402001742,,2402001786,2402003300,John Kenneth Lumpay,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-Mabini,Purok 3,2402001744,,2402001787,2402003327,Gloria Edusma,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001744,,2402001787,2402003328,Jocel Edusma,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-Mabini,Purok 3,2402001744,,2402001792,2402003331,Precious Khate Alicaway,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Mabini,Purok 3,2402001745,,2402001788,2402003311,Althea Jean Veloso,,,,,,,,,,,,,,,,,no response,,,,,,,valid
-Mabini,Purok 3,2402001746,,2402001789,2402003313,Julie Pearl Lilis,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001746,,2402001789,2402003315,Xyraine Pearl Lilis,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-Mabini,Purok 3,2402001749,,2402001791,2402003324,Kent Morales,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Mabini,Purok 3,2402001749,,2402001791,2402003320,Marie Ross Morales,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001751,,2402001793,2402003348,Janella Grace Taganas,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Mabini,Purok 3,2402001751,,2402001793,2402003347,Jacqueline Taganas,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001751,,2402001796,2402003349,Christine Mae Martinez,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001756,,2402001795,2402003345,Myrna Morales,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001756,,2402001795,2402003346,Roldan Morales,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-Mabini,Purok 3,2402001756,,2402001795,2402003415,Rufino Morales,,,,,,,,,,,,,,,,,no response,,,,,,,valid
-Mabini,Purok 3,2402001757,,2402001797,2402003350,Rolyn Galinzoga,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001757,,2402001797,2402003352,Lennie Rose Galinzoga,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
-Mabini,Purok 3,2402001757,,2402001797,2402003352,Lennie Rose Galinzoga,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
-Mabini,Purok 3,2402001758,,2402001798,2402003354,Rosalinda Gajol,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001759,,2402001799,2402003356,Leonila Pedrablanca,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001760,,2402001800,2402003357,Godelia Daguinod,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001763,,2402001802,2402003359,Jerome Joseph Lasco,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001763,,2402001802,2402003360,Julius Fred Lasco,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-Mabini,Purok 3,2402001765,,2402001804,2402003362,Michelle Gahuman,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001765,,2402001804,2402003364,Andre Lorenzo Ladaga,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
-Mabini,Purok 3,2402001765,,2402001804,2402003365,Devey Gahuman,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-Mabini,Purok 3,2402001765,,2402001804,2402003424,Delly Gahuman,,,,no response,,,,,,,,,,,,,no response,,,,,,,valid
-Mabini,Purok 3,2402001766,,2402001805,2402003368,Audrey Dianopra,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Mabini,Purok 3,2402001766,,2402001805,2402003367,Judelle Marie Dianopra,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001767,,2402001806,2402003369,Elsa Bakit,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001769,,2402001808,2402003373,Gift Gazellou Mercado,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Mabini,Purok 3,2402001769,,2402001808,2402003372,Daylinn Mercado,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001770,,2402001809,2402003377,Xander Pedrablanca,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Mabini,Purok 3,2402001770,,2402001809,2402003374,Gelyn Pedrablanca,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 3,2402001770,,2402001809,2402003376,Aljen Pedrablanca,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-Mabini,Purok 3,2402001771,,2402001810,2402003379,JC Jhuna Pareja,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Mabini,Purok 3,2402001773,,2402001812,2402003382,Jaspher Lumpay,,,,,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 3,2402000165,,2402000166,2402000319,Sulficia Monte,,,,,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 3,2402000167,,2402000168,2402000322,Rissel Satorre,,,,,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 3,2402000167,,2402000168,2402000323,Janella Ablanida,,,,,,,,,,,,,,,,,,,,,,,,invalid
@@ -1103,45 +1058,6 @@ Malinao,Purok 3,2402001059,,2402001060,2402002047,Diegyn Agocoy,,,,,,,,,,,,,,,,,
 Malinao,Purok 3,2402001059,,2402001060,2402002048,Rexan Agocoy,,,,,,,,,,,,,,,,,no response,,,,,,,no response
 Malinao,Purok 3,2402001061,,2402001062,2402002054,Cindy Ranulo,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 3,2402001061,,2402001062,2402002052,Wrangler Ranulo,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001366,,2402001374,2402002587,Client Jasper Serna,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001366,,2402001374,2402002588,Jesyl Mae Serna,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
-Malinao,Purok 3,2402001367,,2402001375,2402002590,Fitz Gerald Bag ao,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001370,,2402001378,2402002594,Devhon Ausa,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001371,,2402001379,2402002596,Zaiden Rose Gumaod,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001373,,2402001381,2402002602,Ivan Pareja,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001373,,2402001381,2402002603,Jamjem Pareja,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-Malinao,Purok 3,2402001386,,2402001416,2402002625,Nico Sarence,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001386,,2402001416,2402002624,Marienela Serna,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001387,,2402001417,2402002626,Josie Ejina,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001387,,2402001417,2402002627,Xandler Ejina,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001388,,2402001418,2402002631,Revin Gumaod,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001388,,2402001418,2402002628,Robella Gumaod,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001388,,2402001418,2402002634,Rosel Gumaod,,,,no response,,,,invalid,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001389,,2402001419,2402002636,Juve Lulab,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001389,,2402001419,2402002637,Iver Glen Lulab,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001396,,2402001426,2402002661,Kent Andreh Arena,,,,,,,,,,,,,,,,,no response,,,,,,,valid
-Malinao,Purok 3,2402001400,,2402001430,2402002672,Jonathan Monte,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001400,,2402001430,2402002670,Cerila Monte,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001401,,2402001431,2402002674,Eddrian Menil,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001401,,2402001431,2402002673,Diana Menil,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001401,,2402001431,2402002678,Dennis Menil,,,,,,,,invalid,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001402,,2402001432,2402002681,Marelyn Mestozo,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001402,,2402001432,2402002684,Jake Reven Monte,,,,,,,,invalid,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001403,,2402001433,2402002686,Andrea Jade Alvarado,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001403,,2402001433,2402002685,Gecil Alvarado,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001404,,2402001434,2402002688,Chesca Mae Egina,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001404,,2402001434,2402002687,Cristine Rose Egina,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001405,,2402001435,2402002692,Jim Zaire Navidas,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001405,,2402001435,2402002691,Maria Celeste Navidas,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001406,,2402001436,2402002693,Arnalita Lito,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001407,,2402001437,2402002700,Prince Gian Deloso,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001407,,2402001437,2402002699,Princess Babes Deloso,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001407,,2402001437,2402002698,Marecel Deloso,,,,,invalid,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001408,,2402001438,2402002703,Mike Deloso,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001408,,2402001438,2402002702,Mishel Gastardo,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001409,,2402001439,2402002707,Klyd Estuya,,,,,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 3,2402001409,,2402001439,2402002705,Nelanie Estuya,,,,,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 3,2402001410,,2402001440,2402002709,Juvelyn Monte,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 3,2402000454,,2402000456,2402000883,Mievell Torotoro,,,,,,,invalid,,,,,,,,,,,,,,,,,valid
 Roxas,Purok 3,2402000454,,2402000456,2402000964,Adrian Selisana,,,,,,,,,,,,,,,,,,,,,,,,no response
 Roxas,Purok 3,2402000457,,2402000458,2402000886,Darelle jay Alvarado,,,,,,,,,,,,,,,,,,,,,,,,no response
@@ -1156,45 +1072,129 @@ Roxas,Purok 3,2402000962,,2402000963,2402001899,Ralp Compe,,,,,,,,,,,,,,,,,,,,,,
 San Vicente,Purok 3,2402001222,,2402001223,2402002310,Rafol Jake Sega,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001222,,2402001223,2402002310,Rafol Jake Sega,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001222,,2402001223,2402002372,Ranie Sega,,,,,,,,,,,,,,,,,,,,,,,,no response
-San Vicente,Purok 3,2402001224,,2402001225,2402002313,Recabell Luib,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001224,,2402001225,2402002312,Cristal Mae Della peÃ±a,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+San Vicente,Purok 3,2402001224,,2402001225,2402002313,Recabell Luib,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001224,,2402001225,2402002373,Ben Luib,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 3,2402001226,,2402001228,2402002317,Rayleigh Pabe,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001229,,2402001230,2402002319,BJ Cribello,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001231,,2402001232,2402002321,Aijen Grace Abellano,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001233,,2402001234,2402002323,Rayne Zhl Sta Theresa,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001235,,2402001236,2402002379,Aniano Luib,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-San Vicente,Purok 3,2402001237,,2402001238,2402002326,Lexienne Menil,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001237,,2402001238,2402002325,Cryslyn Luib,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+San Vicente,Purok 3,2402001237,,2402001238,2402002326,Lexienne Menil,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001241,,2402001242,2402002328,Honey Rose EscalaÃ±a,,,,,,,,,,,,,,,,,,,,,,,,invalid
-San Vicente,Purok 3,2402001241,,2402001242,2402002382,Edgar EscalaÃ±a,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 3,2402001241,,2402001242,2402002329,Bella EscalaÃ±a,,invalid,,,,,,,,,,,,,,,,,,,,,,invalid
+San Vicente,Purok 3,2402001241,,2402001242,2402002382,Edgar EscalaÃ±a,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 3,2402001243,,2402001244,2402002330,Nympha Jamera,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 3,2402001243,,2402001244,2402002333,JI Winston Alfred Jamera,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-San Vicente,Purok 3,2402001245,,2402001246,2402002336,Jayvie Apole,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001245,,2402001246,2402002334,Ruthcheel Apole,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+San Vicente,Purok 3,2402001245,,2402001246,2402002336,Jayvie Apole,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001245,,2402001246,2402002337,Jocel Reign Apole,,invalid,,no response,,,,,,,,,,,,,,,,,,,,invalid
-San Vicente,Purok 3,2402001247,,2402001248,2402002385,Mario EscalaÃ±a,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-San Vicente,Purok 3,2402001247,,2402001248,2402002346,Jacob EscalaÃ±a,,,,no response,,,,,,,,,,,,,no response,,,,,,,invalid
 San Vicente,Purok 3,2402001247,,2402001248,2402002342,Raymond EscalaÃ±a,,,,no response,,,,,,,,,,,,,no response,,,,,,,no response
+San Vicente,Purok 3,2402001247,,2402001248,2402002346,Jacob EscalaÃ±a,,,,no response,,,,,,,,,,,,,no response,,,,,,,invalid
+San Vicente,Purok 3,2402001247,,2402001248,2402002385,Mario EscalaÃ±a,,,,,,,,,,,,,,,,,no response,,,,,,,no response
 San Vicente,Purok 3,2402001249,,2402001250,2402002348,Crezsellah Dumanjog,,,,,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 3,2402001249,,2402001250,2402002349,Juliana Apole,,invalid,,no response,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001252,,2402001253,2402002387,Nestor Dumanjog,,,,,,,,,,,,,,,,,,,,,,,,no response
-San Vicente,Purok 3,2402001254,,2402001255,2402002352,Ashley Abrio,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001254,,2402001255,2402002351,Darren Abrio,,,,,,,,,,,,,,,,,,,,,,,,no response
+San Vicente,Purok 3,2402001254,,2402001255,2402002352,Ashley Abrio,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001254,,2402001255,2402002353,Ellah Abrio,,invalid,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001254,,2402001255,2402002355,Matthew Abrio,,invalid,,no response,,,,,,,,,,,,,,,,,,,,invalid
-San Vicente,Purok 3,2402001256,,2402001257,2402002357,Ryle Asher Luib,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001256,,2402001257,2402002356,Trinedad Encinas,,,,,,,,,,,,,,,,,,,,,,,,no response
+San Vicente,Purok 3,2402001256,,2402001257,2402002357,Ryle Asher Luib,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001258,,2402001259,2402002360,Maria Yzabelle Belocura,,,,,,,,,,,,,,,,,,,,,,,,invalid
-San Vicente,Purok 3,2402001258,,2402001259,2402002390,Ian Belocura,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 3,2402001258,,2402001259,2402002361,Mary Ashtoreth Belocura,,invalid,,no response,,,,,,,,,,,,,,,,,,,,invalid
-San Vicente,Purok 3,2402001260,,2402001261,2402002365,Robert zac Daplas,,,,,,,,,,,,,,,,,,,,,,,,invalid
+San Vicente,Purok 3,2402001258,,2402001259,2402002390,Ian Belocura,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 San Vicente,Purok 3,2402001260,,2402001261,2402002364,Sergio EscalaÃ±a,,,,,,,,,,,,,,,,,,,,,,,,no response
-San Vicente,Purok 3,2402001262,,2402001263,2402002368,Ellah May EscalaÃ±a,,,,,,,,,,,,,,,,,,,,,,,,invalid
+San Vicente,Purok 3,2402001260,,2402001261,2402002365,Robert zac Daplas,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001262,,2402001263,2402002367,Queen Ellah EscalaÃ±a,,,,,,,,,,,,,,,,,,,,,,,,no response
-San Vicente,Purok 3,2402001265,,2402001266,2402002370,Moises Stone Luib,,,,,,,,,,,,,,,,,,,,,,,,invalid
+San Vicente,Purok 3,2402001262,,2402001263,2402002368,Ellah May EscalaÃ±a,,,,,,,,,,,,,,,,,,,,,,,,invalid
 San Vicente,Purok 3,2402001265,,2402001266,2402002369,Annabel Belandres,,,,,,,,,,,,,,,,,,,,,,,,no response
+San Vicente,Purok 3,2402001265,,2402001266,2402002370,Moises Stone Luib,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001366,,2402001374,2402002587,Client Jasper Serna,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001366,,2402001374,2402002588,Jesyl Mae Serna,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
+Malinao,Purok 3,2402001367,,2402001375,2402002590,Fitz Gerald Bag ao,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001370,,2402001378,2402002594,Devhon Ausa,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001371,,2402001379,2402002596,Zaiden Rose Gumaod,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001373,,2402001381,2402002602,Ivan Pareja,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001373,,2402001381,2402002603,Jamjem Pareja,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Malinao,Purok 3,2402001386,,2402001416,2402002624,Marienela Serna,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001386,,2402001416,2402002625,Nico Sarence,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001387,,2402001417,2402002626,Josie Ejina,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001387,,2402001417,2402002627,Xandler Ejina,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001388,,2402001418,2402002628,Robella Gumaod,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001388,,2402001418,2402002631,Revin Gumaod,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001388,,2402001418,2402002634,Rosel Gumaod,,,,no response,,,,invalid,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001389,,2402001419,2402002636,Juve Lulab,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001389,,2402001419,2402002637,Iver Glen Lulab,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001396,,2402001426,2402002661,Kent Andreh Arena,,,,,,,,,,,,,,,,,no response,,,,,,,valid
+Malinao,Purok 3,2402001400,,2402001430,2402002670,Cerila Monte,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001400,,2402001430,2402002672,Jonathan Monte,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001401,,2402001431,2402002673,Diana Menil,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001401,,2402001431,2402002674,Eddrian Menil,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001401,,2402001431,2402002678,Dennis Menil,,,,,,,,invalid,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001402,,2402001432,2402002681,Marelyn Mestozo,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001402,,2402001432,2402002684,Jake Reven Monte,,,,,,,,invalid,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001403,,2402001433,2402002685,Gecil Alvarado,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001403,,2402001433,2402002686,Andrea Jade Alvarado,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001404,,2402001434,2402002687,Cristine Rose Egina,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001404,,2402001434,2402002688,Chesca Mae Egina,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001405,,2402001435,2402002691,Maria Celeste Navidas,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001405,,2402001435,2402002692,Jim Zaire Navidas,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001406,,2402001436,2402002693,Arnalita Lito,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001407,,2402001437,2402002698,Marecel Deloso,,,,,invalid,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001407,,2402001437,2402002699,Princess Babes Deloso,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001407,,2402001437,2402002700,Prince Gian Deloso,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001408,,2402001438,2402002702,Mishel Gastardo,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001408,,2402001438,2402002703,Mike Deloso,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001409,,2402001439,2402002705,Nelanie Estuya,,,,,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 3,2402001409,,2402001439,2402002707,Klyd Estuya,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 3,2402001410,,2402001440,2402002709,Juvelyn Monte,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001732,,2402001778,2402003281,Vincent Emman Daguinod,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Mabini,Purok 3,2402001737,,2402001781,2402003291,Anita Lumpay,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001737,,2402001782,2402003295,Kryzel Jay Bisnar,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Mabini,Purok 3,2402001738,,2402001783,2402003296,Renato Jandayan,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001739,,2402001785,2402003289,Rose Marie Villacorte,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001739,,2402001785,2402003290,Florie Ann Villacorte,,,,,,,invalid,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001742,,2402001786,2402003299,Perlita Lumpay,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001742,,2402001786,2402003300,John Kenneth Lumpay,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 3,2402001742,,2402001786,2402003301,Johpette Lumpay,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
+Mabini,Purok 3,2402001744,,2402001787,2402003327,Gloria Edusma,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001744,,2402001787,2402003328,Jocel Edusma,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 3,2402001745,,2402001788,2402003311,Althea Jean Veloso,,,,,,,,,,,,,,,,,no response,,,,,,,valid
+Mabini,Purok 3,2402001746,,2402001789,2402003313,Julie Pearl Lilis,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001746,,2402001789,2402003315,Xyraine Pearl Lilis,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 3,2402001749,,2402001791,2402003320,Marie Ross Morales,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001749,,2402001791,2402003324,Kent Morales,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Mabini,Purok 3,2402001744,,2402001792,2402003331,Precious Khate Alicaway,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Mabini,Purok 3,2402001751,,2402001793,2402003347,Jacqueline Taganas,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001751,,2402001793,2402003348,Janella Grace Taganas,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Mabini,Purok 3,2402001756,,2402001795,2402003345,Myrna Morales,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001756,,2402001795,2402003346,Roldan Morales,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 3,2402001756,,2402001795,2402003415,Rufino Morales,,,,,,,,,,,,,,,,,no response,,,,,,,valid
+Mabini,Purok 3,2402001751,,2402001796,2402003349,Christine Mae Martinez,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001757,,2402001797,2402003350,Rolyn Galinzoga,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001757,,2402001797,2402003352,Lennie Rose Galinzoga,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
+Mabini,Purok 3,2402001757,,2402001797,2402003352,Lennie Rose Galinzoga,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
+Mabini,Purok 3,2402001758,,2402001798,2402003354,Rosalinda Gajol,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001759,,2402001799,2402003356,Leonila Pedrablanca,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001760,,2402001800,2402003357,Godelia Daguinod,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001763,,2402001802,2402003359,Jerome Joseph Lasco,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001763,,2402001802,2402003360,Julius Fred Lasco,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 3,2402001765,,2402001804,2402003362,Michelle Gahuman,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001765,,2402001804,2402003364,Andre Lorenzo Ladaga,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
+Mabini,Purok 3,2402001765,,2402001804,2402003365,Devey Gahuman,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 3,2402001765,,2402001804,2402003424,Delly Gahuman,,,,no response,,,,,,,,,,,,,no response,,,,,,,valid
+Mabini,Purok 3,2402001766,,2402001805,2402003367,Judelle Marie Dianopra,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001766,,2402001805,2402003368,Audrey Dianopra,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Mabini,Purok 3,2402001767,,2402001806,2402003369,Elsa Bakit,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001769,,2402001808,2402003372,Daylinn Mercado,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001769,,2402001808,2402003373,Gift Gazellou Mercado,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Mabini,Purok 3,2402001770,,2402001809,2402003374,Gelyn Pedrablanca,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 3,2402001770,,2402001809,2402003376,Aljen Pedrablanca,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 3,2402001770,,2402001809,2402003377,Xander Pedrablanca,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Mabini,Purok 3,2402001771,,2402001810,2402003379,JC Jhuna Pareja,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Mabini,Purok 3,2402001773,,2402001812,2402003382,Jaspher Lumpay,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 3,2402001774,,2402001813,2402003383,Virginia Ampo,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 3,2402001774,,2402001813,2402003384,Maria Gee Ann Ampo,,,,,,,,,,,,,,,,,no response,,,,,,,no response
 Mabini,Purok 3,2402001775,,2402001814,2402003385,Arelie Cortes,,,,,,,,,,,,,,,,,,,,,,,,no response
@@ -1936,103 +1936,103 @@ Santa Cruz,Purok 4,2404000117,,2404000132,2404000208,Karisha Sayson,,,,,,,,,,,,,
 Mabini,Purok 5,2402001493,,2402001521,2402002857,Rosie Maratas,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001493,,2402001521,2402002859,Rodelyn Maratas,,,,,,,,,,,,,,,,,no response,,,,,,,no response
 Mabini,Purok 5,2402001496,,2402001522,2402002861,Bienvenida Uba,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001496,,2402001523,2402002863,Aya Uba,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001496,,2402001523,2402002862,Freshyle Uba,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001496,,2402001523,2402002863,Aya Uba,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001496,,2402001523,2402002864,Iya Uba,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001497,,2402001524,2402002865,Rosalie Arena,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001497,,2402001524,2402002868,Crezel mae Arena,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001497,,2402001524,2402002867,Nonie Arena,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 5,2402001497,,2402001524,2402002868,Crezel mae Arena,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001498,,2402001525,2402002870,Rosie Arena,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001499,,2402001526,2402002872,Jimmy Igcasan,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001500,,2402001527,2402002874,Malou Mahinay,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001500,,2402001527,2402002878,Maria Fe Vicente,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001500,,2402001527,2402002876,Mary Joy Vicente,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 5,2402001500,,2402001527,2402002878,Maria Fe Vicente,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001500,,2402001527,2402002881,Jhellou Eviota,,,,no response,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001501,,2402001528,2402002882,Danilo Serna,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001502,,2402001529,2402002883,Arlene Serna,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001502,,2402001529,2402002884,Robert Serna,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-Mabini,Purok 5,2402001503,,2402001531,2402002887,Jillian Lumpay,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001503,,2402001531,2402002886,Lusbie Lumpay,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001503,,2402001531,2402002887,Jillian Lumpay,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001503,,2402001531,2402002888,Marvin Lumpay,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001506,,2402001533,2402002891,Bernie Arena,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001508,,2402001534,2402002893,Pryhnz Angelo Lulab,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001508,,2402001534,2402002892,Leida Serana,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001508,,2402001534,2402002893,Pryhnz Angelo Lulab,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001508,,2402001534,2402002894,DimpleYohan Lulab,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001509,,2402001535,2402002895,Diana Lou Serana,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001509,,2402001535,2402002908,Steinar Nevin Elicano,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001509,,2402001535,2402002907,Esmile Serana,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 5,2402001509,,2402001535,2402002908,Steinar Nevin Elicano,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001510,,2402001536,2402002897,Gemma Lumpay,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001512,,2402001537,2402002901,Bimbo Lumpay,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001512,,2402001537,2402002900,Blonielyn Lumpay,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001512,,2402001537,2402002901,Bimbo Lumpay,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001515,,2402001541,2402002902,Maria Fe Varques,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001515,,2402001541,2402002906,Danefe Varques,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001515,,2402001541,2402002904,Jacob Varques,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 5,2402001515,,2402001541,2402002906,Danefe Varques,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001518,,2402001543,2402002911,James Orejas,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001518,,2402001543,2402002912,Jeno Orejas,,,,,,,,,,,,,,,,,no response,,,,,,,no response
 Mabini,Purok 5,2402001519,,2402001544,2402002913,Julito Odlime,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001548,,2402001582,2402002952,Manuel Tagolgol,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001548,,2402001582,2402002938,Marilou Tagolgol,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001549,,2402001583,2402002954,Meljane Blanco,,,,,,,,,,,,,,,,,,,,,,,,invalid
+Mabini,Purok 5,2402001548,,2402001582,2402002952,Manuel Tagolgol,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001549,,2402001583,2402002939,Melisa Blanco,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001549,,2402001583,2402002954,Meljane Blanco,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001549,,2402001583,2402002955,Jhon Paul Comparativo,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001550,,2402001584,2402002959,Jetty Cagadas,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001550,,2402001584,2402002975,Lienna Cagadas,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001550,,2402001584,2402002973,Julie Ann Cagadas,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 5,2402001550,,2402001584,2402002975,Lienna Cagadas,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001551,,2402001585,2402002940,Marivic Maniego,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001551,,2402001585,2402002965,Marian Maniego,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001552,,2402001586,2402002966,Qwenn Kate Luib,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001552,,2402001586,2402002967,Glenn Luib,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
-Mabini,Purok 5,2402001553,,2402001587,2402002968,Princess Urpiano,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001553,,2402001587,2402002942,Zenny Cagadas,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001553,,2402001587,2402002968,Princess Urpiano,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001553,,2402001587,2402002969,Nythan Naza,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
-Mabini,Purok 5,2402001554,,2402001588,2402002971,Adrian Orejas,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001554,,2402001588,2402002943,Anebie Orejas,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001554,,2402001588,2402002971,Adrian Orejas,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001554,,2402001588,2402002972,Ashley Orejas,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
-Mabini,Purok 5,2402001555,,2402001589,2402002945,Michaela Bacol,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001555,,2402001589,2402002944,Tanny Bacol,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001555,,2402001589,2402002945,Michaela Bacol,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001557,,2402001591,2402002947,Nenita Oropio,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001557,,2402001591,2402002949,Ronie Oropio,,,,,,,,,,,,,,,,,no response,,,,,,,no response
 Mabini,Purok 5,2402001558,,2402001592,2402002951,Flourencia Custodio,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001559,,2402001593,2402003017,Celsa Cabiling,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001559,,2402001593,2402003019,Janrey Cabiling,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
-Mabini,Purok 5,2402001560,,2402001594,2402003021,Luke Allyson Dalugdugan,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001560,,2402001594,2402003020,Manilyn Comparativo,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001560,,2402001594,2402003021,Luke Allyson Dalugdugan,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001561,,2402001596,2402002978,Gennia Dalugdugan,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001564,,2402001598,2402002982,Ivy Padolina,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001565,,2402001600,2402002985,Jemaicah Andit,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001565,,2402001600,2402002984,Meh Andit,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001565,,2402001600,2402002985,Jemaicah Andit,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001565,,2402001600,2402002986,Jefferson Andit,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001566,,2402001601,2402002961,Rogelio Mahinay,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001567,,2402001602,2402002962,Dave Arena,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001568,,2402001603,2402002963,Emma Arena,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001569,,2402001604,2402003023,Melljhon Dalugdugan,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001569,,2402001604,2402003022,Mirasol Dalugdugan,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001569,,2402001604,2402003023,Melljhon Dalugdugan,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001569,,2402001604,2402003024,Liamjyk Dalugdugan,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001569,,2402001604,2402003047,Jerson Dalugdugan,,,,,,,,,,,,,,,,,no response,,,,,,,no response
 Mabini,Purok 5,2402001570,,2402001606,2402002987,Imie Tan,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001570,,2402001606,2402002990,Loyd Tan,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001570,,2402001606,2402002989,James Tan,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 5,2402001570,,2402001606,2402002990,Loyd Tan,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001571,,2402001607,2402003026,Vilma Potot,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001571,,2402001607,2402003028,Rich Ann Potot,,,,,,,,,,,,,,,,,no response,,,,,,,no response
 Mabini,Purok 5,2402001572,,2402001608,2402002999,Merlyn Cabugnason,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001575,,2402001611,2402002995,Vivian Oropio,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001575,,2402001611,2402002993,Renie Mark Oropio,,,,,,,,,,,,,,,,,,,,,,,,no response
+Mabini,Purok 5,2402001575,,2402001611,2402002995,Vivian Oropio,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 5,2402001575,,2402001611,2402002996,Brienna Oropio,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001575,,2402001611,2402002997,Ranie Oropio,,,,,,,,,,,,,,,,,no response,,,,,,,no response
-Mabini,Purok 5,2402001577,,2402001613,2402003004,Tericeta Sagragao,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001578,,2402001612,2402003005,Richel Serna,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001578,,2402001612,2402003010,Rechel Mae Serna,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001578,,2402001612,2402003008,Michelle Serna,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 5,2402001578,,2402001612,2402003010,Rechel Mae Serna,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
+Mabini,Purok 5,2402001577,,2402001613,2402003004,Tericeta Sagragao,,,,,,,,,,,,,,,,,,,,,,,,no response
 Mabini,Purok 5,2402001581,,2402001617,2402003014,Airesh Amadora,,,,,,,,,,,,,,,,,,,,,,,,no response
-Mabini,Purok 5,2402001581,,2402001617,2402003016,Flynn Oliver Amadora,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Mabini,Purok 5,2402001581,,2402001617,2402003015,Alven Sayson,,,,,,,,,,,,,,,,,no response,,,,,,,no response
+Mabini,Purok 5,2402001581,,2402001617,2402003016,Flynn Oliver Amadora,,,,,,,,,,,,,,,,,no response,,,,,,,invalid
 Malinao,Purok 5,2402001645,,2402001672,2402003212,Jamelita Maturan,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001646,,2402001673,2402003249,Tyler Marquez,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001646,,2402001673,2402003247,Irene Marquez,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001646,,2402001674,2402003251,Khairo Jyb Tejano,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 5,2402001646,,2402001673,2402003249,Tyler Marquez,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001646,,2402001674,2402003250,Arlyn Marquez,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001647,,2402001675,2402003180,Rhyan Jay Apogan,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 5,2402001646,,2402001674,2402003251,Khairo Jyb Tejano,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001647,,2402001675,2402003179,Merecris Apogan,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 5,2402001647,,2402001675,2402003180,Rhyan Jay Apogan,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001648,,2402001676,2402003130,May-ann Apogan,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 Malinao,Purok 5,2402001649,,2402001677,2402003132,Sophia Borleo,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001651,,2402001679,2402003189,Perpetua Cabaging,,,,no response,,,,,,,,,,,,,,,,,,,,no response
@@ -2040,38 +2040,38 @@ Malinao,Purok 5,2402001652,,2402001680,2402003122,Mylyn Patayon,,,,,,,,,,,,,,,,,
 Malinao,Purok 5,2402001653,,2402001681,2402003177,Tita Apogan,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 Malinao,Purok 5,2402001654,,2402001682,2402003246,Lorgie Maturan,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 Malinao,Purok 5,2402001655,,2402001683,2402003221,Jovita Peligro,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 5,2402001656,,2402001684,2402003239,Retchie Pacarat,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 5,2402001656,,2402001684,2402003240,Jhon Kiven Pacarat,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001656,,2402001684,2402003242,Rexter Pacarat,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001656,,2402001684,2402003243,Charity Pacarat,,,,,invalid,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001656,,2402001684,2402003240,Jhon Kiven Pacarat,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 5,2402001656,,2402001684,2402003239,Retchie Pacarat,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001657,,2402001685,2402003232,Albin Serna,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001657,,2402001685,2402003229,Analyn Noynay,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001658,,2402001686,2402003209,Mc.James Maturan,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 5,2402001657,,2402001685,2402003232,Albin Serna,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001658,,2402001686,2402003208,Rosali Maturan,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001659,,2402001687,2402003201,Andy Gumato,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 5,2402001658,,2402001686,2402003209,Mc.James Maturan,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001659,,2402001687,2402003200,Angelyn Salido,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001660,,2402001688,2402003238,Ricobert Salido,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 5,2402001659,,2402001687,2402003201,Andy Gumato,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001660,,2402001688,2402003236,Juanita Salido,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001661,,2402001689,2402003193,Rolly Llemit,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 5,2402001660,,2402001688,2402003238,Ricobert Salido,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001661,,2402001689,2402003192,Jenelyn Latras,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001662,,2402001690,2402003196,Jesmar Latras,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 5,2402001661,,2402001689,2402003193,Rolly Llemit,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001662,,2402001690,2402003195,Elisa Benongo,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 5,2402001662,,2402001690,2402003196,Jesmar Latras,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001663,,2402001691,2402003197,Jelly Latras,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 Malinao,Purok 5,2402001664,,2402001692,2402003199,Jay Guarino,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001665,,2402001693,2402003206,Zessa Guarino,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001665,,2402001693,2402003203,Vanessa Guarino,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001666,,2402001695,2402003128,Henemar Amante,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
-Malinao,Purok 5,2402001666,,2402001695,2402003124,Henry Amante,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 5,2402001665,,2402001693,2402003206,Zessa Guarino,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001666,,2402001695,2402003123,Madelyn Amante,,,,no response,invalid,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001667,,2402001697,2402003188,Jomar Cabaging,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 5,2402001666,,2402001695,2402003124,Henry Amante,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 5,2402001666,,2402001695,2402003128,Henemar Amante,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001667,,2402001697,2402003187,Remar Cabaging,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001668,,2402001698,2402003184,Ronalyn Cabaging,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 5,2402001667,,2402001697,2402003188,Jomar Cabaging,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001668,,2402001698,2402003183,Feuel Cabaging,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 5,2402001668,,2402001698,2402003184,Ronalyn Cabaging,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001669,,2402001699,2402003245,Emelita Coyno,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001670,,2402001700,2402003228,Jubert Noynay,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001670,,2402001700,2402003223,Linda Noynay,,,,no response,,,,,,,,,,,,,,,,,,,,no response
-Malinao,Purok 5,2402001671,,2402001701,2402003216,Bryan Martinez,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
+Malinao,Purok 5,2402001670,,2402001700,2402003228,Jubert Noynay,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2402001671,,2402001701,2402003214,Marites Mayordomo,,,,no response,,,,,,,,,,,,,,,,,,,,no response
+Malinao,Purok 5,2402001671,,2402001701,2402003216,Bryan Martinez,,,,no response,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2403000335,,2403000344,2403000608,Geraldine Billones,,,,no response,,,,,,,,,,,,,,,,,,,,no response
 Malinao,Purok 5,2403000335,,2403000344,2403000609,Eldin Billones,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Malinao,Purok 5,2403000335,,2403000344,2403000610,Dixter Billones,,invalid,,no response,,,,,,,,,,,,,no response,,,,,,,invalid
@@ -2483,1112 +2483,26 @@ Mabini,Purok 7,2403000330,,2403000334,2403000600,Lodelyn Bulcase,,,,no response,
 Mabini,Purok 7,2403000330,,2403000334,2403000601,Leigh grace Vilar,,,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 7,2403000330,,2403000334,2403000603,Ean jee Vilar,,invalid,,,,,,,,,,,,,,,,,,,,,,invalid
 Mabini,Purok 7,2403000330,,2403000334,2403000605,Maria Bulcase,,,,,,,,,,,,,,,,,,,,,,,,no response
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mabini,Test Purok 1,2603000009,,2603000011,2603000006,Jezenith Castro,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,,,,no response
+Mabini,Test Purok 1,2603000010,,2603000012,2603000005,Reymark Sepe,,invalid,,,,invalid,,,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,,,,invalid
+Mabini,Test Purok 1,2603000010,,2603000012,2603000007,Reymond Sepe,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,,,,no response
+Mabini,Test Purok 1,2603000013,,2603000016,2603000008,Cone Nerza,,,invalid,,,,,,,,,,,,,,,,no response,,,,,invalid
+Mabini,Test Purok 1,2603000013,,2603000016,2603000009,Rey Nerza,,,,,,,,,,,,,,,,,no response,,no response,,,,,valid
+Mabini,Test Purok 1,2603000020,,2603000022,2603000013,Lanny Gonzales,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,,,,invalid
+Mabini,Test Purok 1,2603000020,,2603000022,2603000014,Realwayne Gonzales,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,,,,no response
+Mabini,Test Purok 1,2603000047,,2603000052,2603000029,Jeyrald Manait,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,,,,no response
+Mabini,Test Purok 1,2603000050,,2603000054,2603000028,Chrisilda Dela Cruz,,,,,,,,,,,,,,,,,,,no response,,,invalid,,valid
+Mabini,Test Purok 1,2603000074,,2603000077,2603000051,marie lumpay,,,,,,,,,,,,,,,,,,,no response,,,,,valid
+Mabini,Test Purok 1,2603000074,,2603000077,2603000052,Zion Lumpay,,invalid,,,,,,,,,,,,,,,,,no response,,,,,valid
+Mabini,Test Purok 1,2603000073,,2603000078,2603000053,v g,,invalid,,,,,,,,,,,,,,,,,no response,,,,,valid
+Mabini,Test Purok 2,2603000005,,2603000006,2603000003,Amado Salagantin,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,,,,no response
+Mabini,Test Purok 2,2603000064,,2603000066,2603000037,Sherylyn Ajo,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,,,no response,,,,,valid
+Mabini,Test Purok 3,2603000025,,2603000026,2603000018,Kier janneth Vargas,,,,,,,,,,,,,,,,,,,no response,,,,,valid
+Mabini,Test Purok 3,2603000027,,2603000033,2603000022,ELINO Lambarte,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,,no response,no response,no response,,,,no response
+Mabini,Test Purok 3,2603000030,,2603000037,2603000023,Daisy Torrevillas,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,,,,no response
+Mabini,Test Purok 3,2603000043,,2603000045,2603000024,Gilbert Cuevas,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,no response,,,,no response
+Mabini,Test Purok 3,2603000056,,2603000057,2603000031,Jessica Paz Tidalgo,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,,no response,no response,no response,,,,valid
+Mabini,Test Purok 3,2603000056,,2603000058,2603000034,Ryan Jay Cascara,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,,no response,no response,no response,,,,valid
+Mabini,Test Purok 3,2603000056,,2603000059,2603000035,Kenny TIDALGO,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,,no response,no response,no response,,,,valid
+Mabini,Test Purok 3,2603000056,,2603000060,2603000036,Celestino Tolog,,,,,,,,,no response,no response,no response,no response,no response,no response,no response,no response,,no response,no response,no response,,,,valid
+Mabini,Test Purok 3,2603000025,,2603000072,2603000049,Josephine Vargas,,,,,,,,,,,,,,,,,,,no response,,,,,valid
